@@ -19,7 +19,7 @@ var user = { key: "example-user-key" };
 
 5) Replace the SDK key from line 5 of the index.js file with your own SDK key. See a copy of line 12 below.
 
-**const ldClient = LaunchDarkly.init('sdk-935aa048-8313-4f01-8138-967d933625dc');**
+**const ldClient = LaunchDarkly.init('sdk-935aa048-8313-4f01-8138-967d933xxxxx');**
 
 6) Create a feature flag that has specifically has the name and key, "call-to-action-button."
 
