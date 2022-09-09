@@ -9,7 +9,7 @@ const user = {
 };
 
 // Create a an instance of the LaunchDarkly client with your environment-specific SDK key.
-const ldClient = LaunchDarkly.init('sdk-935aa048-8313-4f01-8138-967d933625dc');
+const ldClient = LaunchDarkly.init('sdk-935aa048-8313-4f01-8138-967d933xxxxx');
 
 // When the LaunchDarkly client is ready, call it with the feature flag key you want to evaluate.
 ldClient.once('ready', function() {
