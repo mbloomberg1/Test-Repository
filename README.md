@@ -17,9 +17,9 @@ https://github.com/mbloomberg1/Test-Repository
 4) In the index.js file in this Test-Repository GitHib repo, replace the example user key in quotes. This user key will be recognized in LaunchDarkly.
 var user = { key: "example-user-key" };
 
-5) Replace the SDK key from line 10 of the index.js file with your own SDK key. See a copy of line 10 below.
+5) Replace the SDK key from line 5 of the index.js file with your own SDK key. See a copy of line 5 below.
 
-**const ldClient = LaunchDarkly.initialize('62ae97e36327c714e578c30a', user);**
+**const ldClient = LaunchDarkly.init('sdk-935aa048-8313-4f01-8138-967d933625dc');**
 
 6) Create a feature flag that has specifically has the name and key, "call-to-action-button."
 
